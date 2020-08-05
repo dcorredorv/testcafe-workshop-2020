@@ -1,0 +1,32 @@
+{
+  "name": "workshop-testcafe",
+  "version": "1.0.0",
+  "description": "This is a Workshop about TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome test/google.ts --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcorredorv/testcafe-workshop-2020.git"
+  },
+  "keywords": [
+    "ui-testing",
+    "dojo",
+    "practice",
+    "testcafe",
+    "workshop"
+  ],
+  "author": "Diego Corredor dcorredorv@psl.com.co dcorredorv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dcorredorv/testcafe-workshop-2020/issues"
+  },
+  "homepage": "https://github.com/dcorredorv/testcafe-workshop-2020#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "chai": "^4.2.0",
+    "testcafe": "^1.8.8",
+    "typescript": "^3.9.7"
+  }
+}
