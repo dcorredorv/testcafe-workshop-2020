@@ -2,8 +2,9 @@ import { Selector } from 'testcafe';
 import { expect } from 'chai';
 
 fixture `This is my first test using testcafe`
- .page `http://www.google.com`;
+.page `http://www.google.com`;
 
-test('should have a title', async t => {
-  expect(await Selector("title").innerText).to.equal('Google');
+test('should have a title', async (t) => {
+  await t.debug();
+  expect(await Selector('title').innerText).to.equal('Google');
 });
